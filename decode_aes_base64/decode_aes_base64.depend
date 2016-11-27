@@ -1,0 +1,127 @@
+# depslib dependency file v1.0
+1467877012 source:f:\test_area\decode_aes_base64\decode_aes_base64\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"base64.h"
+	"LoRaMac.h"
+
+1466664848 source:f:\test_area\decode_aes_base64\decode_aes_base64\component\aes\aes.c
+	<string.h>
+	<intrin.h>
+	<stdlib.h>
+	"aes.h"
+
+1453707087 f:\test_area\decode_aes_base64\decode_aes_base64\component\aes\aes.h
+
+1467085158 source:f:\test_area\decode_aes_base64\decode_aes_base64\component\aes\cmac.c
+	"aes.h"
+	"cmac.h"
+	<string.h>
+
+1453707087 f:\test_area\decode_aes_base64\decode_aes_base64\component\aes\cmac.h
+	"aes.h"
+
+1467874318 source:f:\test_area\decode_aes_base64\decode_aes_base64\component\aes\loramac.c
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"utilities.h"
+	"LoRaMacCrypto.h"
+	"LoRaMac.h"
+
+1467252752 f:\test_area\decode_aes_base64\decode_aes_base64\component\utilities\utilities.h
+	<stdint.h>
+
+1453707087 f:\test_area\decode_aes_base64\decode_aes_base64\component\aes\loramaccrypto.h
+
+1467874238 f:\test_area\decode_aes_base64\decode_aes_base64\component\aes\loramac.h
+	"hal_types.h"
+	<windef.h>
+
+1467251210 f:\test_area\decode_aes_base64\decode_aes_base64\component\aes\hal_types.h
+	<stdint.h>
+
+1467089890 source:f:\test_area\decode_aes_base64\decode_aes_base64\component\aes\loramaccrypto.c
+	<stdlib.h>
+	"utilities.h"
+	"aes.h"
+	"cmac.h"
+	"LoRaMacCrypto.h"
+
+1467277397 source:f:\test_area\decode_aes_base64\decode_aes_base64\component\base64.c
+	<stdio.h>
+	"base64.h"
+
+1467275139 f:\test_area\decode_aes_base64\decode_aes_base64\component\base64.h
+
+1467252411 source:f:\test_area\decode_aes_base64\decode_aes_base64\component\utilities\utilities.c
+	<stdlib.h>
+	<stdio.h>
+	<stdint.h>
+	"utilities.h"
+
+1466664848 source:d:\test_area\decode_aes_base64\decode_aes_base64\component\aes\aes.c
+	<string.h>
+	<intrin.h>
+	<stdlib.h>
+	"aes.h"
+
+1453707087 d:\test_area\decode_aes_base64\decode_aes_base64\component\aes\aes.h
+
+1467085158 source:d:\test_area\decode_aes_base64\decode_aes_base64\component\aes\cmac.c
+	"aes.h"
+	"cmac.h"
+	<string.h>
+
+1453707087 d:\test_area\decode_aes_base64\decode_aes_base64\component\aes\cmac.h
+	"aes.h"
+
+1480239647 source:d:\test_area\decode_aes_base64\decode_aes_base64\component\aes\loramac.c
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"utilities.h"
+	"LoRaMacCrypto.h"
+	"LoRaMac.h"
+
+1467252752 d:\test_area\decode_aes_base64\decode_aes_base64\component\utilities\utilities.h
+	<stdint.h>
+
+1453707087 d:\test_area\decode_aes_base64\decode_aes_base64\component\aes\loramaccrypto.h
+
+1467874238 d:\test_area\decode_aes_base64\decode_aes_base64\component\aes\loramac.h
+	"hal_types.h"
+	<windef.h>
+
+1467251210 d:\test_area\decode_aes_base64\decode_aes_base64\component\aes\hal_types.h
+	<stdint.h>
+
+1467089890 source:d:\test_area\decode_aes_base64\decode_aes_base64\component\aes\loramaccrypto.c
+	<stdlib.h>
+	"utilities.h"
+	"aes.h"
+	"cmac.h"
+	"LoRaMacCrypto.h"
+
+1467277397 source:d:\test_area\decode_aes_base64\decode_aes_base64\component\base64.c
+	<stdio.h>
+	"base64.h"
+
+1467275139 d:\test_area\decode_aes_base64\decode_aes_base64\component\base64.h
+
+1467252411 source:d:\test_area\decode_aes_base64\decode_aes_base64\component\utilities\utilities.c
+	<stdlib.h>
+	<stdio.h>
+	<stdint.h>
+	"utilities.h"
+
+1467877012 source:d:\test_area\decode_aes_base64\decode_aes_base64\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"base64.h"
+	"LoRaMac.h"
+

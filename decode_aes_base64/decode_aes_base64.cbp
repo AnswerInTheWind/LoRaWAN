@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="decode_aes_base64" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/decode_aes_base64" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/decode_aes_base64" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="component" />
+			<Add directory="component/AES" />
+			<Add directory="component/utilities" />
+		</Compiler>
+		<Unit filename="component/AES/LoRaMac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="component/AES/LoRaMac.h" />
+		<Unit filename="component/AES/LoRaMacCrypto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="component/AES/LoRaMacCrypto.h" />
+		<Unit filename="component/AES/aes.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="component/AES/aes.h" />
+		<Unit filename="component/AES/cmac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="component/AES/cmac.h" />
+		<Unit filename="component/AES/hal_types.h" />
+		<Unit filename="component/base64.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="component/base64.h" />
+		<Unit filename="component/cJSON.h" />
+		<Unit filename="component/utilities/utilities.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="component/utilities/utilities.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
