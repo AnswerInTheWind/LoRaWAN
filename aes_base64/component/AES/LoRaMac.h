@@ -249,6 +249,16 @@ typedef struct sLoRaMacEvent
 extern Band_t Bands[1];
 extern ChannelParams_t Channels[16];
 
+/*!
+ * AES encryption/decryption cipher network session key
+ */
+extern uint8_t LoRaMacNwkSKey[16];
+
+/*!
+ * AES encryption/decryption cipher application session key
+ */
+extern uint8_t LoRaMacAppSKey[16];
+
 uint8_t AES_decryption( uint8_t *payload, uint16_t size,payload_buf_t *dest,uint8_t dir);
 
 #ifdef __cplusplus
