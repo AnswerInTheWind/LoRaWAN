@@ -189,3 +189,67 @@
 	"LoRaMac.h"
 	"LoRaMacCrypto.h"
 
+1480244963 source:f:\github\lorawan\aes_base64\component\aes\aes.c
+	<string.h>
+	<intrin.h>
+	<stdlib.h>
+	"aes.h"
+
+1480244963 f:\github\lorawan\aes_base64\component\aes\aes.h
+
+1480244963 source:f:\github\lorawan\aes_base64\component\aes\cmac.c
+	"aes.h"
+	"cmac.h"
+	<string.h>
+
+1480244963 f:\github\lorawan\aes_base64\component\aes\cmac.h
+	"aes.h"
+
+1480244963 source:f:\github\lorawan\aes_base64\component\aes\loramaccrypto.c
+	<stdlib.h>
+	"utilities.h"
+	"aes.h"
+	"cmac.h"
+	"LoRaMacCrypto.h"
+
+1480244963 f:\github\lorawan\aes_base64\component\utilities\utilities.h
+	<stdint.h>
+
+1480244963 f:\github\lorawan\aes_base64\component\aes\loramaccrypto.h
+
+1480244963 source:f:\github\lorawan\aes_base64\component\base64.c
+	<stdio.h>
+	"base64.h"
+
+1480244963 f:\github\lorawan\aes_base64\component\base64.h
+
+1480244963 source:f:\github\lorawan\aes_base64\component\utilities\utilities.c
+	<stdlib.h>
+	<stdio.h>
+	<stdint.h>
+	"utilities.h"
+
+1487035203 source:f:\github\lorawan\aes_base64\component\aes\loramac.c
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"utilities.h"
+	"LoRaMacCrypto.h"
+	"LoRaMac.h"
+
+1486606930 f:\github\lorawan\aes_base64\component\aes\loramac.h
+	"hal_types.h"
+	<windef.h>
+
+1480244963 f:\github\lorawan\aes_base64\component\aes\hal_types.h
+	<stdint.h>
+
+1487035202 source:f:\github\lorawan\aes_base64\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"base64.h"
+	"LoRaMac.h"
+	"LoRaMacCrypto.h"
+

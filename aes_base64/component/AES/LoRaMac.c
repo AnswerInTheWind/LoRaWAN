@@ -66,23 +66,7 @@ static uint32_t DownLinkCounter = 0;
 //static uint8_t LoRaMacPayload[LORAMAC_PHY_MAXPAYLOAD];
 //static uint8_t LoRaMacRxPayload[LORAMAC_PHY_MAXPAYLOAD];
 
-/*!
- * AES encryption/decryption cipher network session key
- */
-uint8_t LoRaMacNwkSKey[] =
-{
-    0x2B,0x7E,0x15,0x16,0x28,0xAE,0xD2,0xA6,
-    0xAB,0xF7,0x15,0x88,0x09,0xCF,0x4F,0x3C
-};
 
-/*!
- * AES encryption/decryption cipher application session key
- */
-uint8_t LoRaMacAppSKey[] =
-{
-    0x2B,0x7E,0x15,0x16,0x28,0xAE,0xD2,0xA6,
-    0xAB,0xF7,0x15,0x88,0x09,0xCF,0x4F,0x3C
-};
 //
 //LoRaMacStatus_t PrepareFrame( LoRaMacHeader_t *macHdr, LoRaMacFrameCtrl_t *fCtrl, uint8_t fPort, void *fBuffer, uint16_t fBufferSize )
 //{
